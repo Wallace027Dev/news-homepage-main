@@ -1,50 +1,49 @@
-
-@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap');
-*{
+@import url("https://fonts.googleapis.com/css2?family=Roboto:wght@700;900&display=swap");
+* {
   margin: 0;
   padding: 0;
   text-decoration: none;
 }
 
-body{
-  font-family: 'Roboto', sans-serif;  
+body {
+  font-family: "Roboto", sans-serif;
   max-width: 1400px;
   margin: 25px auto;
 }
 
-.inspecionar{
+.inspecionar {
   border: red solid 5px;
 }
 
-.flex-objeto{
+.flex-objeto {
   display: flex;
 }
 
-.nav-bar{
+.nav-bar {
   display: flex;
   align-items: center;
   justify-content: space-between;
   margin-bottom: 25px;
 }
 
-.nav a{
+.nav a {
   margin-left: 50px;
   color: hsl(236, 13%, 42%);
   font-size: 20px;
 }
 
-.principal{
+.principal {
   display: flex;
   gap: 100px;
 }
 
-.artc-principal{
+.artc-principal {
   display: flex;
   flex-direction: column;
   width: 900px;
 }
 
-.artc-principal h1{
+.artc-principal h1 {
   color: hsl(240, 100%, 5%);
   font-size: 50px;
   width: 400px;
@@ -52,18 +51,18 @@ body{
   line-height: 1;
 }
 
-.dentro-principal{
+.dentro-principal {
   display: flex;
   align-items: center;
   justify-content: center;
   margin-top: 25px;
 }
 
-.botao{
+.botao {
   margin-left: 100px;
 }
 
-.botao p{
+.botao p {
   color: hsl(233, 8%, 79%);
   font-size: 20px;
   width: 400px;
@@ -71,7 +70,7 @@ body{
   line-height: 1.5;
 }
 
-.botao button{
+.botao button {
   background-color: hsl(5, 85%, 63%);
   color: hsl(36, 100%, 99%);
   padding: 12px 30px;
@@ -80,25 +79,24 @@ body{
   letter-spacing: 2px;
 }
 
-.artc-lateral{
+.artc-lateral {
   width: 400px;
   background-color: hsl(240, 100%, 5%);
   padding: 35px;
 }
 
-.artc-lateral h2{
+.artc-lateral h2 {
   color: hsl(35, 77%, 62%);
   font-size: 65px;
-  
 }
 
-.artc-lateral h3{
+.artc-lateral h3 {
   color: hsl(36, 100%, 99%);
   margin-top: 25px;
   font-size: 20px;
 }
 
-.artc-lateral p{
+.artc-lateral p {
   color: hsl(236, 13%, 42%);
   margin-top: 10px;
   font-size: 15px;
@@ -106,37 +104,45 @@ body{
   margin-bottom: 25px;
 }
 
-.div-line{
+.div-line {
   border-bottom: 1px solid hsl(236, 13%, 42%);
 }
 
-.artc-baixo{
+.artc-baixo {
   margin-top: 50px;
   justify-content: space-between;
 }
 
-.artc-baixo img{
+.artc-baixo img {
   height: 125px;
 }
 
-.artc-baixo-objeto{
+.artc-baixo-objeto {
   gap: 50px;
   width: 350px;
   margin-bottom: 50px;
 }
 
-.artc-baixo-objeto h2{
+.artc-baixo-objeto h2 {
   font-size: 35px;
   color: hsl(233, 8%, 79%);
 }
 
-.artc-baixo-objeto h3{
+.artc-baixo-objeto h3 {
   font-size: 15px;
   color: hsl(240, 100%, 5%);
   font-weight: 800;
 }
 
-.artc-baixo-objeto p{
+.artc-baixo-objeto p {
   font-size: 12px;
   color: hsl(233, 8%, 79%);
+}
+
+button:hover {
+  background-color: hsl(35, 77%, 62%);
+}
+
+a:hover {
+  color: hsl(5, 85%, 63%);
 }
